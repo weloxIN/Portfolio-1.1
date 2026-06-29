@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    stdin_open: true
+    tty: true
+    environments:
+      Tittle: ${APP_NAME}

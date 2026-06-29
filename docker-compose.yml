@@ -3,5 +3,3 @@ services:
     build: .
     stdin_open: true
     tty: true
-    environments:
-      Tittle: ${APP_NAME}
